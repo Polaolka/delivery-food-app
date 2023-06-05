@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FoodItem } from '../FoodItem/FoodItem';
-import { FoodsListWrapper, FoodsItem } from './Gallery.styled';
+import { FoodsListWrapper } from './Gallery.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllFoods } from '../../redux/food/operations';
 
