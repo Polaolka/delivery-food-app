@@ -1,13 +1,10 @@
 import React from 'react';
-import { ImgStyled, ItemStyled, LinkStyled, OrderBtnStyled } from './FoodItem.styled';
+import { ImgStyled, ItemStyled, OrderBtnStyled } from './FoodItem.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCart, setSelectedShop } from 'redux/order/slice';
 import { selectedItemsInCart, selectedShop } from '../../redux/order/selectors';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { getAllFoods } from 'redux/food/operations';
-
-// import PropTypes from 'prop-types';
 
 export const FoodItem = ({
   id,
