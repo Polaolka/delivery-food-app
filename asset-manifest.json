@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/delivery-food-app/static/css/main.14c2e21b.css",
-    "main.js": "/delivery-food-app/static/js/main.ddb1bcc1.js",
-    "static/js/249.3cfb1d15.chunk.js": "/delivery-food-app/static/js/249.3cfb1d15.chunk.js",
+    "main.js": "/delivery-food-app/static/js/main.34398edf.js",
+    "static/js/249.895065df.chunk.js": "/delivery-food-app/static/js/249.895065df.chunk.js",
     "static/js/94.80d927ed.chunk.js": "/delivery-food-app/static/js/94.80d927ed.chunk.js",
     "static/js/775.ab7b7b87.chunk.js": "/delivery-food-app/static/js/775.ab7b7b87.chunk.js",
     "static/js/712.128a3407.chunk.js": "/delivery-food-app/static/js/712.128a3407.chunk.js",
@@ -13,8 +13,8 @@
     "static/media/empty-shopping-cart.svg": "/delivery-food-app/static/media/empty-shopping-cart.b77856998fad00c6aefe6963ea1c72bb.svg",
     "index.html": "/delivery-food-app/index.html",
     "main.14c2e21b.css.map": "/delivery-food-app/static/css/main.14c2e21b.css.map",
-    "main.ddb1bcc1.js.map": "/delivery-food-app/static/js/main.ddb1bcc1.js.map",
-    "249.3cfb1d15.chunk.js.map": "/delivery-food-app/static/js/249.3cfb1d15.chunk.js.map",
+    "main.34398edf.js.map": "/delivery-food-app/static/js/main.34398edf.js.map",
+    "249.895065df.chunk.js.map": "/delivery-food-app/static/js/249.895065df.chunk.js.map",
     "94.80d927ed.chunk.js.map": "/delivery-food-app/static/js/94.80d927ed.chunk.js.map",
     "775.ab7b7b87.chunk.js.map": "/delivery-food-app/static/js/775.ab7b7b87.chunk.js.map",
     "712.128a3407.chunk.js.map": "/delivery-food-app/static/js/712.128a3407.chunk.js.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.14c2e21b.css",
-    "static/js/main.ddb1bcc1.js"
+    "static/js/main.34398edf.js"
   ]
 }
