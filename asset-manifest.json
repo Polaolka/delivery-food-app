@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Polaolka/delivery-food-app/static/css/main.14c2e21b.css",
-    "main.js": "/Polaolka/delivery-food-app/static/js/main.807aa69f.js",
-    "static/js/249.3cfb1d15.chunk.js": "/Polaolka/delivery-food-app/static/js/249.3cfb1d15.chunk.js",
-    "static/js/94.80d927ed.chunk.js": "/Polaolka/delivery-food-app/static/js/94.80d927ed.chunk.js",
-    "static/js/775.ab7b7b87.chunk.js": "/Polaolka/delivery-food-app/static/js/775.ab7b7b87.chunk.js",
-    "static/js/712.128a3407.chunk.js": "/Polaolka/delivery-food-app/static/js/712.128a3407.chunk.js",
-    "static/js/302.e51b4b2b.chunk.js": "/Polaolka/delivery-food-app/static/js/302.e51b4b2b.chunk.js",
-    "static/js/728.98c36e3d.chunk.js": "/Polaolka/delivery-food-app/static/js/728.98c36e3d.chunk.js",
-    "static/media/Burger.svg": "/Polaolka/delivery-food-app/static/media/Burger.8aed579738d24b6010e1377415e8dec2.svg",
-    "static/media/Logo_food.svg": "/Polaolka/delivery-food-app/static/media/Logo_food.8ec7bf91ac97d658d7bf2789dc6d8612.svg",
-    "static/media/empty-shopping-cart.svg": "/Polaolka/delivery-food-app/static/media/empty-shopping-cart.b77856998fad00c6aefe6963ea1c72bb.svg",
-    "index.html": "/Polaolka/delivery-food-app/index.html",
-    "main.14c2e21b.css.map": "/Polaolka/delivery-food-app/static/css/main.14c2e21b.css.map",
-    "main.807aa69f.js.map": "/Polaolka/delivery-food-app/static/js/main.807aa69f.js.map",
-    "249.3cfb1d15.chunk.js.map": "/Polaolka/delivery-food-app/static/js/249.3cfb1d15.chunk.js.map",
-    "94.80d927ed.chunk.js.map": "/Polaolka/delivery-food-app/static/js/94.80d927ed.chunk.js.map",
-    "775.ab7b7b87.chunk.js.map": "/Polaolka/delivery-food-app/static/js/775.ab7b7b87.chunk.js.map",
-    "712.128a3407.chunk.js.map": "/Polaolka/delivery-food-app/static/js/712.128a3407.chunk.js.map",
-    "302.e51b4b2b.chunk.js.map": "/Polaolka/delivery-food-app/static/js/302.e51b4b2b.chunk.js.map",
-    "728.98c36e3d.chunk.js.map": "/Polaolka/delivery-food-app/static/js/728.98c36e3d.chunk.js.map"
+    "main.css": "/delivery-food-app/static/css/main.14c2e21b.css",
+    "main.js": "/delivery-food-app/static/js/main.ddb1bcc1.js",
+    "static/js/249.3cfb1d15.chunk.js": "/delivery-food-app/static/js/249.3cfb1d15.chunk.js",
+    "static/js/94.80d927ed.chunk.js": "/delivery-food-app/static/js/94.80d927ed.chunk.js",
+    "static/js/775.ab7b7b87.chunk.js": "/delivery-food-app/static/js/775.ab7b7b87.chunk.js",
+    "static/js/712.128a3407.chunk.js": "/delivery-food-app/static/js/712.128a3407.chunk.js",
+    "static/js/302.e51b4b2b.chunk.js": "/delivery-food-app/static/js/302.e51b4b2b.chunk.js",
+    "static/js/728.98c36e3d.chunk.js": "/delivery-food-app/static/js/728.98c36e3d.chunk.js",
+    "static/media/Burger.svg": "/delivery-food-app/static/media/Burger.8aed579738d24b6010e1377415e8dec2.svg",
+    "static/media/Logo_food.svg": "/delivery-food-app/static/media/Logo_food.8ec7bf91ac97d658d7bf2789dc6d8612.svg",
+    "static/media/empty-shopping-cart.svg": "/delivery-food-app/static/media/empty-shopping-cart.b77856998fad00c6aefe6963ea1c72bb.svg",
+    "index.html": "/delivery-food-app/index.html",
+    "main.14c2e21b.css.map": "/delivery-food-app/static/css/main.14c2e21b.css.map",
+    "main.ddb1bcc1.js.map": "/delivery-food-app/static/js/main.ddb1bcc1.js.map",
+    "249.3cfb1d15.chunk.js.map": "/delivery-food-app/static/js/249.3cfb1d15.chunk.js.map",
+    "94.80d927ed.chunk.js.map": "/delivery-food-app/static/js/94.80d927ed.chunk.js.map",
+    "775.ab7b7b87.chunk.js.map": "/delivery-food-app/static/js/775.ab7b7b87.chunk.js.map",
+    "712.128a3407.chunk.js.map": "/delivery-food-app/static/js/712.128a3407.chunk.js.map",
+    "302.e51b4b2b.chunk.js.map": "/delivery-food-app/static/js/302.e51b4b2b.chunk.js.map",
+    "728.98c36e3d.chunk.js.map": "/delivery-food-app/static/js/728.98c36e3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14c2e21b.css",
-    "static/js/main.807aa69f.js"
+    "static/js/main.ddb1bcc1.js"
   ]
 }
