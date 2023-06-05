@@ -2,7 +2,7 @@
   "name": "delivery-food-app",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://github.com/Polaolka/delivery-food-app",
+  "homepage": "https://polaolka.github.io/delivery-food-app/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
