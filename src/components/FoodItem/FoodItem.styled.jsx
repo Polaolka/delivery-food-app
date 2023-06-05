@@ -12,8 +12,8 @@ border: 1px solid  #948484;
 border-radius: 4px;
 overflow: hidden;
 box-shadow: 0 2px 4px -1px hsla(0,73%,74%,.2), 0 4px 5px 0 hsla(0,73%,74%,.14), 0 1px 10px 0 hsla(0,73%,74%,.12);
-width: 50%;
-height: 50%
+width: calc(50% - 10px);
+height: 350px
 `
 export const ImgStyled = styled.img`
 

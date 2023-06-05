@@ -9,5 +9,7 @@ export const FoodsListWrapper = styled.div`
   margin: 10px auto 30px 10px;
   padding: 20px;
   gap: 10px;
+  flex-wrap: wrap;
+  overflow-y: scroll
 `;
 

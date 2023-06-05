@@ -3,21 +3,26 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 
 import { CartItem } from '../CartItem/CartItem';
-import { CartListWrapper, CartListEmpty, CartBox, TotalBox } from './CartList.styled';
-import { useSelector } from 'react-redux';
+import { CartListWrapper, CartListEmpty, CartBox, TotalBox, ButtonClearCart } from './CartList.styled';
+import { useDispatch, useSelector } from 'react-redux';
 import { selectCart } from 'redux/order/selectors';
 import { selectTotal } from 'redux/order/selectors'; 
+import { setCartEmpty } from 'redux/order/slice';
 
 export const CartList = () => {
-
+  const dispatch = useDispatch();
   const total = useSelector(selectTotal);
-
+  
   const cart = useSelector(selectCart);
+  function handleClearCart() {
+    dispatch(setCartEmpty());
+  }
+
   return (
     <CartBox>
     <CartListWrapper>
 
-        {!cart.products && (<CartListEmpty>
+        {(!cart.products || cart.products.length === 0) &&  (<CartListEmpty>
             <EmptyCart />
             <p>Your basket is empty</p>
         </CartListEmpty>)}
@@ -37,7 +42,8 @@ export const CartList = () => {
           ))}
 
     </CartListWrapper>
-      <TotalBox>TOTAL: {total} USD</TotalBox>
+      <TotalBox>TOTAL: {total} units</TotalBox>
+      <ButtonClearCart onClick={handleClearCart}>Clear Cart</ButtonClearCart>
     </CartBox>
   );
 };

@@ -17,6 +17,7 @@ import { Gallery } from 'components/Gallery/Gallery';
 import { selectAllShops } from '../../redux/shop/selectors';
 import { getAllShops } from '../../redux/shop/operations';
 import { selectedShop } from 'redux/order/selectors';
+import { setCartEmpty } from 'redux/order/slice';
 // import { getAllShops } from '../../redux/shop/operations';
 
 export const ShopsEl = ( ) => {
@@ -34,6 +35,10 @@ export const ShopsEl = ( ) => {
   function onSelectShop(event) {
     const selectShopId = event.target.dataset.currentshopid;
     setSelectShop(selectShopId);
+  }
+
+  function handleClearCart() {
+    dispatch(setCartEmpty());
   }
 
   return (
@@ -58,7 +63,7 @@ export const ShopsEl = ( ) => {
           ))}
           </ShopsUL>
         </ShopsList>
-        <ButtonClearCart>Clear Cart</ButtonClearCart>
+        <ButtonClearCart onClick={handleClearCart}>Clear Cart</ButtonClearCart>
       </Aside>
       <Gallery shop_owner_food={selectShop}/>
     </ShopsWrapper>

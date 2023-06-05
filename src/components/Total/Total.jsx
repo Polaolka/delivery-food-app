@@ -8,7 +8,7 @@ export const Total = () => {
   const total = useSelector(selectTotal);
   return (
     <TotalWrapper>
-      <p>{total}$</p>
+      <p>{total} units</p>
     </TotalWrapper>
   );
 };

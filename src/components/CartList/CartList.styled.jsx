@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
+import { Button } from 'components/Styled';
 // import { colors } from 'constants';
-// import { mediaSizes } from 'constants';
+import { mediaSizes } from 'constants';
 // import { transition } from 'helpers';
 
 export const CartListWrapper = styled.div`
@@ -13,6 +14,14 @@ export const CartListWrapper = styled.div`
   border: 1px solid rgb(149, 157, 165);
   border-radius: 4px;
   width: 100%;
+`;
+
+export const ButtonClearCart = styled(Button)`
+margin: 20px auto;
+  @media screen and (min-width: ${mediaSizes.desktop}) {
+    min-width: 200px;
+    margin: 20px auto;
+  }
 `;
 
 export const TotalBox = styled.div`

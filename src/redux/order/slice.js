@@ -89,6 +89,10 @@ const orderSlice = createSlice({
         state.cart.owner_id = state.user._id;
       }
     },
+    setCartEmpty(state, action) {
+      state.cart.products = [];
+      state.cart.shop = '';
+    },
     increaseQuantity(state, action) {
       const id  = action.payload;
       const productIndex = state.cart.products.findIndex(item => item.id === id);
@@ -107,5 +111,5 @@ const orderSlice = createSlice({
     },
   },
 });
-export const { setSelectedShop, setCurrentUser, setCart, decreaseQuantity, increaseQuantity } = orderSlice.actions;
+export const { setSelectedShop, setCurrentUser, setCart, decreaseQuantity, increaseQuantity, setCartEmpty } = orderSlice.actions;
 export const orderReducer = orderSlice.reducer;
